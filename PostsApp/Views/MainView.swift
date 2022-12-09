@@ -21,7 +21,11 @@ struct MainView: View {
                 }
             CommentList()
                 .tabItem {
-                    Label("Comments", systemImage: "list.clipboard")
+                    Label("Comments", systemImage: "list.dash")
+                }
+            AddedPosts()
+                .tabItem {
+                    Label("Added", systemImage: "plus")
                 }
         }
     }
